@@ -1,13 +1,8 @@
 import "../../style/main.css"
-import zakBook  from "/images/zak-book.jpeg"
 
 export function Section6 () {
     return (
         <section className="section-4">
-            {/* <div className="section-2-img">
-                <img src={zakBook} alt="zak-image" />
-            </div> */}
-
             <div className="section-4-cnt">
                 <div className="section-2-header">
                     <span>The Musician Within: </span>
