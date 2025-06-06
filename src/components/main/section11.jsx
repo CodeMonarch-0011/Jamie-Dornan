@@ -1,8 +1,7 @@
 import "../../style/main.css"
 import { AiFillInstagram } from "react-icons/ai"
-import { FaSquareXTwitter } from "react-icons/fa6"
 import { FaFacebookSquare } from "react-icons/fa"
-import { openMail, openSocial } from "../../utils/mailer"
+import { openSocial } from "../../utils/mailer"
 
 
 function Copyright () {
@@ -26,8 +25,8 @@ export function Section11 ({setContactOpen}) {
             <button className="button secondary-button" onClick={() => setContactOpen(true)}> Reach Out To Us</button>
 
             <div className="section-8-contacts">
-                <span onClick={() => openSocial("https://www.instagram.com/jamiedornan")}> <AiFillInstagram /> </span>
-                <span onClick={() => openSocial("https://x.com/JamieDornan")}> <FaSquareXTwitter /> </span>
+                <span onClick={() => openSocial("https://www.instagram.com/jamiedornan?igsh=YWRnZnpnZTNubjFq")}> <AiFillInstagram /> </span>
+                <span onClick={() => openSocial("https://www.facebook.com/share/15YpJ8pPa9/?mibextid=qi2Omg")}> <FaFacebookSquare /> </span>
             </div>
 
             <Copyright />
